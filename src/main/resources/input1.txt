@@ -1,0 +1,6 @@
+123
+test string
+45.67
+-8
+3.1415
+another string
