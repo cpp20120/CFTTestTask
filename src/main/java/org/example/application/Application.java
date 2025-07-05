@@ -15,14 +15,12 @@ public class Application {
     private final Statistics statistics;
     private final ContentProcessor processor;
 
-    // Constructor with Dependency Injection
     public Application(Options options, Statistics statistics, ContentProcessor processor) {
         this.options = options;
         this.statistics = statistics;
         this.processor = processor;
     }
 
-    // Logic remains unchanged
     public void run(String[] args) throws ApplicationException {
         CommandLineParser parser = new CommandLineParser();
         parser.parse(args, options);
